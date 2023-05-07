@@ -1,0 +1,50 @@
+.content {
+  vertical-align: baseline;
+  color: aliceblue;
+  background-color: rgb(14, 59, 59);
+}
+.tex {
+  text-transform: uppercase;
+}
+.contr {
+  vertical-align: baseline;
+}
+
+#About {
+  vertical-align: bottom;
+
+  text-align: center;
+  color: #57770f;
+  font-size: 14px;
+  padding-bottom: ;
+  background-color: #dda15e;
+}
+
+#content {
+  font-size: 14px;
+  margin: 0px;
+  color: #fff;
+  padding: 10px;
+  background-color: blue;
+}
+
+#contr {
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+#text {
+  vertical-align: bottom;
+  direction: rtl;
+  color: black;
+  padding: 5px;
+  font-size: 14px;
+  background-color: red;
+}
+
+#Author {
+  color: black;
+  background-color: #fb8500;
+  text-transform: capitalize;
+  text-decoration: underline;
+}

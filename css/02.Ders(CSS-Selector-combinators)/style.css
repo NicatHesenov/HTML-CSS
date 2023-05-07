@@ -1,0 +1,22 @@
+.container {
+  background-color: aquamarine;
+  /* margin: 40px 80px 10px 200px;*/
+}
+
+.container h1 {
+}
+
+.container p {
+  color: aliceblue;
+}
+.container {
+  background-color: aquamarine;
+  height: 100px;
+  width: 200px;
+}
+
+.about-body > a,
+p {
+  background-color: aquamarine;
+  width: 200px;
+}

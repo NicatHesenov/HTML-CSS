@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&family=Tauri&display=swap");
+/* ====1-ci hissə=== */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+.contanier {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1152px;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.contanier .section--frame {
+  background-image: linear-gradient(#53c79d, rgba(142, 231, 199, 0));
+  width: 1152px;
+  height: 700px;
+}
+
+.contanier .section--frame .text--started {
+  width: 320px;
+  height: 63px;
+  font-family: "Tauri", sans-serif;
+  font-style: regular;
+  font-size: 25px;
+  line-height: 30px;
+
+  letter-spacing: 5%;
+  color: #ffff;
+  word-wrap: break-word;
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.contanier .section--frame .abstract--img {
+  z-index: 3;
+  position: relative;
+}
+/* .contanier .section--frame .logo--img {
+} */
+
+/* ===2-ci hissə=== */
+
+.form--contanier {
+  background-color: #ffff;
+  width: 760px;
+  height: 700px;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 55px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.form--contanier .head--language {
+  width: 82px;
+  top: 41px;
+  font-family: "Tauri", sans-serif;
+  font-style: Regular;
+  font-size: 18px;
+  align-items: left;
+  vertical-align: center;
+  color: #454545;
+  position: absolute;
+  right: 35px;
+  top: 25px;
+}
+
+.form--contanier .form-group {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 1024px;
+}
+
+.form--contanier .form-group .head {
+  position: relative;
+  right: 35%;
+  font-size: 25px;
+}
+
+.form--contanier.form-group .sign-btn-group {
+  width: 600px;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Tauri", sans-serif;
+  font-style: regular;
+  color: #000000;
+  text-align: center;
+  padding: 3px 5px;
+}
+
+.btn-social-media {
+  position: relative;
+  left: 15%;
+  transform: translate(-50%);
+  width: 170px;
+  height: 35px;
+  font-family: "Tauri", sans-serif;
+  font-style: regular;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 30px;
+  letter-spacing: 5%;
+  border-radius: 28px;
+  border: 1.5px solid #000000;
+  margin-right: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.media {
+  position: relative;
+  right: 40%;
+}
+.social {
+  position: relative;
+  left: 40%;
+}
+
+.form--contanier .form-group .midle-or {
+  position: absolute;
+  transform: translate(-50%);
+  left: 55%;
+  top: 13%;
+}
+
+.form--contanier .form-group .form-input {
+  position: absolute;
+  top: 20%;
+}
+
+.form--contanier .form-group .form-input .inp {
+  position: relative;
+  right: 20%;
+  width: 500px;
+  padding: 15px 15px;
+  border: none;
+  border-bottom: 1px solid #acacac;
+}
+
+.btn--signup {
+  position: absolute;
+  top: 41%;
+  left: 45%;
+  transform: translate(-50%);
+  width: 563px;
+  height: 54px;
+  border-radius: 28px;
+  background-color: #53c79e;
+  color: #ffff;
+  border: none;
+  font-family: "Tauri", sans-serif;
+  font-style: regular;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 5%;
+}
+
+.have--acount {
+  position: absolute;
+  top: 190%;
+  right: 45%;
+  font-family: "Tauri", sans-serif;
+  font-style: regular;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 5%;
+  color: #000000;
+  color: #53c79e;
+}

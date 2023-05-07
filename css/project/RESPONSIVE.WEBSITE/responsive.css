@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+:root {
+  --secondary: #2b2e34;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: var(--secondary);
+}
+
+.container {
+  width: 100%;
+  height: 1861px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header--navbar {
+  display: flex;
+  margin: 1rem 4rem;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 2.4em;
+  line-height: 100%;
+}
+
+.menu--list {
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 1.8em;
+  line-height: 100%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-right: 5rem;
+}
+
+.menu--list .nav--menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  margin-right: 3rem;
+}
+
+/*====Tablet===*/
+@media screen and (min-width: 625) and (max-width: 830px) {
+  .header--navbar .head--some {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .menu--list {
+    /* margin-left: 200px; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .menu--list .nav--menu a {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* transform: translatex(-300px);
+    transform: translatey(500px); */
+    position: relative;
+    /* right: 350px; */
+    margin: 10px;
+  }
+}
+
+/*====Telefon=== */
+
+@media screen and (max-width: 625px) {
+  .header--navbar .head--some .head--company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header--navbar .head--some {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2.6rem;
+    margin-left: 6.5em;
+  }
+  .navbar .menu--list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .menu--list .nav--menu a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translatex(-400px);
+    transform: translatey(60px);
+    position: relative;
+    right: 230px;
+    bottom: -20px;
+    font-size: 1.5rem;
+    margin: 2px;
+  }
+}
+
+.container--section .section--head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container--section .section--head .head--name {
+  width: 100%;
+  height: 215px;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 3.2em;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  margin-right: 0em;
+  bottom: 2em;
+}
+
+.container--section .section--head .head--second--name {
+  width: 113%;
+  height: 110px;
+  color: #afc0e2;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  margin-right: 5em;
+  bottom: 12em;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  transform: translatey(5rem);
+}
+.card--first {
+  border: 6rem solid;
+  border-radius: 2rem;
+  background-color: black;
+  transform: translatex(2rem);
+}
+.card--first .card--img--first {
+  transform: translate(13rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(-8em);
+  margin-left: 14rem;
+}
+.card--first .card--text--first {
+  width: 90%;
+  height: 80px;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 1.6em;
+  line-height: 100%;
+  color: #afc0e2;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card--second {
+  border: 6rem solid;
+  border-radius: 2rem;
+  background-color: black;
+  transform: translatex(2rem);
+}
+.card--second .card--img--second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(-8em);
+  margin-left: 14rem;
+}
+
+.card--second .card--text--second {
+  width: 90%;
+  height: 80px;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 1.6em;
+  line-height: 100%;
+  color: #afc0e2;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card--finish {
+  border: 6rem solid;
+  border-radius: 2rem;
+  background-color: black;
+  transform: translatex(2rem);
+}
+
+.card--finish .card--img--finish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(-8em);
+  margin-left: 14rem;
+}
+.card--finish .card--text-finish {
+  width: 90%;
+  height: 80px;
+  font-family: "Nunito", sans-serif;
+  font-style: bold;
+  font-size: 1.6em;
+  line-height: 100%;
+  color: #afc0e2;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*====ipad-body===*/
+@media screen and (min-width: 625px) and (max-width: 830px) {
+  .container--section .section--head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section--head .head--name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 96em;
+  }
+
+  .section--head .head--second--name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 9em;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 30rem;
+  }
+
+  .card .card--second {
+    position: relative;
+    bottom: 40rem;
+  }
+}
+/*====phone--body===*/
+@media screen and (max-width: 625px) {
+  .container--section .section--head {
+    position: relative;
+    top: 5rem;
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .section--head .head--name {
+    position: relative;
+    right: -16rem;
+  }
+  .section--head .head--second--name {
+    position: relative;
+    left: 14rem;
+    bottom: 15rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transform: translatey(-100px);
+  }
+  .card .card--first {
+    position: relative;
+    bottom: 20rem;
+  }
+
+  .card .card--second {
+    position: relative;
+    bottom: 10rem;
+  }
+}

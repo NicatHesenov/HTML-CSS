@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap");
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  padding: 1em;
+}
+.container {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.navbar .head--navbar {
+  width: 10%;
+  font-family: "Playfair Display", serif;
+  font-style: bold;
+  font-size: 3.2em;
+  line-height: 100%;
+  color: #0e204e;
+
+  word-wrap: break-word;
+}
+
+.list--navbar {
+  display: flex;
+  list-style: none;
+}
+
+.list--navbar .menu--list {
+  text-align: justify;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  font-style: Regular;
+  font-size: 1.5em;
+  line-height: 100%;
+  color: #232323;
+  margin: 1em;
+}
+
+.btn--primary {
+  border: 15px solid #0e204e;
+  background-color: #0e204e;
+  color: #ffff;
+}
+
+.second--img {
+  width: 70%;
+  height: 717px;
+  margin-left: 58em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section--first--head--name {
+  width: 70%;
+  margin-left: 1.2em;
+  font-family: "Playfair Display", serif;
+  font-style: Bold;
+  font-size: 7em;
+  line-height: 100%;
+  color: #ffff;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .first--img {
+  position: relative;
+  left: 36em;
+  bottom: 12em;
+} */
+
+.section--first--second {
+  position: absolute;
+  width: 40%;
+  height: 496px;
+  margin-left: 23em;
+  margin-top: 7em;
+  background-color: #0e204e;
+  z-index: 10px;
+}
+
+.seciond--first--body--name {
+  font-family: "Manrope", sans-serif;
+  font-style: regular;
+  font-size: 2.2em;
+  line-height: 100%;
+  color: #f4efef;
+  position: relative;
+  bottom: 2em;
+}
